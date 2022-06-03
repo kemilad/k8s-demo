@@ -1,11 +1,11 @@
 # k8s-demo
 
-##Commands  
-###Node app
+## Commands  
+### Node app
 - Run the application locally.
 `node index.js`
 
-###Docker
+### Docker
 
 - Docker build
 `docker build -t node-server .`
@@ -17,7 +17,7 @@
   - Push it to DockerHub
   `docker push <dockerhub-username>/k8s-demo:1.0`
   
-###Kubernetes
+### Kubernetes
 - Update the `deployment.yaml` file in containers category with image repository url
 `image: <dockerhub-username>/k8s-demo:1.0`
 - Create the deployment.
